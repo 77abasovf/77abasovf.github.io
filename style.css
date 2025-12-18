@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: JetBrainsMono-Bold;
     src: url(JetBrainsMono-Bold.ttf);
@@ -30,7 +31,7 @@ h3{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: red;
+    color: lightseagreen;
 }
 .box1{
     border: 2px solid;
@@ -39,6 +40,8 @@ h3{
     align-items: center;
     padding: 2vb;
     margin: 10px;
+    border-radius: 10px;
+    
 }
 
 h2{
@@ -59,4 +62,33 @@ h2{
     border-radius: 5px;
     float: left;
     margin-right: 10px;
+}
+
+#a-link{
+    text-decoration: none;
+}
+
+.pagination{
+    text-align: center;
+    margin: 50px;
+    display: block;
+
+}
+.pagination a{
+    text-decoration: none;
+    padding: 8px 15px;
+    font-family: "Roboto";
+    
+}
+
+#active{
+    color: black;
+    background-color: hsla(240, 82%, 63%, 0.949);
+    border-radius: 8px;
+    
+    
+}
+
+p{
+    font-family: "Roboto";
 }
